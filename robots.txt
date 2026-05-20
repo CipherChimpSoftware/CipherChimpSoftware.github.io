@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /downloads/
+Disallow: /beta/
+Disallow: /*.zip$
+Disallow: /*.vsix$
+Disallow: /*.msi$
+Disallow: /*.exe$
+Disallow: /*license*
+Disallow: /*License*
+Disallow: /*key*
+Disallow: /*Key*
+
