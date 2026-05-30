@@ -231,6 +231,13 @@ ul.clean li { margin: 6px 0; }
 .footer-links { display: flex; flex-wrap: wrap; gap: 14px; }
 .footer-links a { color: var(--muted); font-size: 14px; font-weight: 700; }
 
+.email-list { display: grid; gap: 8px; margin-top: 18px; color: var(--text-soft); font-size: 14px; }
+.email-list.compact { margin-top: 14px; }
+.email-list p { margin: 0; }
+.email-list a { font-weight: 700; color: var(--brand); }
+.nav-menu a.active { color: var(--brand); }
+
+
 @media (max-width: 960px) {
   .hero-grid, .grid-2, .grid-3, .flow-grid, .product-layout, .product-split, .contact-grid { grid-template-columns: 1fr; }
   .side-nav { position: static; }
